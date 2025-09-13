@@ -1,0 +1,19 @@
+[project]
+name = "ntis-preprocess"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "tada20001",email = "tada20001@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.9, !=3.9.7"
+dependencies = [
+    "streamlit (>=1.49.1,<2.0.0)",
+    "pandas (>=2.3.2,<3.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
